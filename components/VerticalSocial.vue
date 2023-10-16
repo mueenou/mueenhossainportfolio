@@ -1,6 +1,6 @@
 <template>
   <ul
-    class="lg:h-screen lg:fixed lg:left-0 lg:flex lg:flex-col lg:justify-center lg:pl-10 lg:gap-y-6 lg:overflow-y-hidden lg:top-0 hidden"
+    class="lg:h-screen lg:fixed lg:left-0 lg:flex lg:flex-col lg:justify-center lg:pl-10 lg:gap-y-6 lg:overflow-y-hidden lg:top-0 hidden z-50"
   >
     <li>
       <a class="text-lg text-primary" href="https://github.com/mueenou" target="_blank">

@@ -13,7 +13,7 @@
       <AboutMe id="about-me" />
     </div>
     <div
-      class="h-screen w-screen snap-start flex justify-center items-center md:text-[250px] text-[100px] bg-slate-900 p-4"
+      class="h-screen w-screen snap-start flex justify-center items-center md:text-[250px] text-[100px] bg-slate-900 p-4 relative"
     >
       <Skills id="skills" class="px-20" />
     </div>

@@ -44,7 +44,9 @@
       </div>
       <div class="flex flex-col w-full pt-8 relative">
         <h2 class="absolute -top-3 px-1 bg-slate-900 rounded-md text-primary">Skills</h2>
-        <div class="md:grid md:grid-cols-4 md:gap-2 md:gap-y-6 mx-auto">
+        <div
+          class="my-10 scale-x-150 scale-y-125 md:my-0 md:scale-100 md:grid-cols-4 grid grid-col-1 md:gap-2 md:gap-y-6 mx-auto"
+        >
           <div>
             <p class="text-xs mb-2 text-slate-600 flex flex-row items-center">
               <Icon class="text-sm" name="devicon:vuejs" />
@@ -242,9 +244,9 @@
         </div>
         <div class="mt-10">
           <h3 class="text-sm text-center text-slate-600 font-bold">TOOLS & OTHERS</h3>
-          <div class="p-10 flex flex-row gap-x-8 justify-center">
+          <div class="p-10 grid md:grid-cols-7 grid-cols-3 gap-x-10 gap-y-2">
             <Icon
-              class="text-5xl"
+              class="text-3xl"
               name="devicon:supabase"
               v-motion="{
                 initial: {
@@ -278,7 +280,7 @@
                   },
                 },
               }"
-              class="text-5xl"
+              class="text-3xl"
               name="devicon:svelte"
             />
             <Icon
@@ -297,7 +299,7 @@
                   },
                 },
               }"
-              class="text-5xl"
+              class="text-3xl"
               name="devicon:java"
             />
             <Icon
@@ -316,7 +318,7 @@
                   },
                 },
               }"
-              class="text-5xl"
+              class="text-3xl"
               name="devicon:git"
             />
             <Icon
@@ -335,7 +337,7 @@
                   },
                 },
               }"
-              class="text-5xl"
+              class="text-3xl"
               name="devicon:bootstrap"
             />
             <Icon
@@ -354,7 +356,7 @@
                   },
                 },
               }"
-              class="text-5xl"
+              class="text-3xl"
               name="devicon:github"
             />
             <Icon
@@ -373,7 +375,7 @@
                   },
                 },
               }"
-              class="text-5xl"
+              class="text-3xl"
               name="devicon:jquery"
             />
           </div>
@@ -444,7 +446,7 @@
           </div>
         </div>
       </div>
-      <div class="grid grid-cols-2 gap-x-6 gap-y-6 w-full pt-8 relative">
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-x-6 gap-y-6 w-full pt-8 relative">
         <h2 class="absolute -top-3 px-1 bg-slate-900 rounded-md text-primary">
           Experiences
         </h2>
@@ -612,7 +614,7 @@
         </div>
       </div>
       <div
-        class="flex flex-col gap-y-2 md:flex-row items-center justify-between w-full pt-8 relative gap-x-2"
+        class="grid grid-cols-1 md:grid-cols-3 gap-y-2 md:flex-row items-center justify-between w-full pt-8 relative gap-x-2"
       >
         <h2 class="absolute -top-3 px-1 bg-slate-900 rounded-md text-primary">
           Educations
@@ -708,9 +710,7 @@
         class="flex flex-row items-center justify-between w-full pt-8 relative gap-x-2"
       >
         <h2 class="absolute -top-3 px-1 bg-slate-900 rounded-md text-primary">Hobbies</h2>
-        <div
-          class="md:flex md:flex-row gap-x-8 md:justify-center mx-auto grid grid-cols-2"
-        >
+        <div class="md:grid-cols-6 gap-x-8 md:justify-center mx-auto grid grid-cols-3">
           <Icon
             class="text-5xl text-green-700"
             v-motion="{
