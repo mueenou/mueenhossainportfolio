@@ -78,7 +78,7 @@
       <div class="mx-auto">
         <input
           type="submit"
-          class="rounded py-2 px-3 text-sm bg-slate-900 text-primary hover:cursor-pointer hover:bg-green-400/10 border border-green-400 duration-500"
+          class="rounded py-2 px-3 text-sm bg-slate-900 text-primary hover:cursor-pointer hover:bg-green-400/10 border border-green-400 duration-500 font-bold"
         />
       </div>
     </form>
