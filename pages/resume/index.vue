@@ -32,13 +32,15 @@
         </h2>
         <div>
           <p class="text-sm text-justify">
-            Hello, great passion for Web development and new technologies, I am
-            specialized in VueJS and front end development. A particular interest for
-            graphics, I usually use tools such as Adobe Photoshop, illustrator. Throughout
-            my career I got to learn and discover different tools and coding languages
-            such as frameworks and back end related tools and best practices as well as
-            improving my skills and capacities. The front end is still my favorite area! I
-            am however eager to learn more just like I do everyday! Thank you.
+            I have always had a passion for web development and emerging technologies. The
+            dedication, which followed, allowed me to specialize in Vue.js and front-end
+            development. I have a keen interest in graphic design and frequently use tools
+            like Adobe Photoshop and Illustrator to enhance user experiences. Over the
+            course of my career, I've actively engaged with different tools and coding
+            languages, such as frameworks and back-end related tools, all while
+            consistently honing my skills and expanding my knowledge. While I have a deep
+            affinity for front-end development, I remain enthusiastic about further
+            learning and growth. Thank you for considering my qualifications.
           </p>
         </div>
       </div>

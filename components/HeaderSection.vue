@@ -25,22 +25,22 @@
     </nuxt-link>
     <div class="flex-1"></div>
     <ul class="flex flex-row mr-4">
-      <li class="xl:text-sm mx-4 text-slate-300 hover:text-primary duration-200">
+      <li class="xl:text-sm font-bold mx-4 text-slate-300 hover:text-primary duration-200">
         <nuxt-link :to="{ path: '/', hash: '#skills' }">
           <span class="text-primary">01.</span>Skills
         </nuxt-link>
       </li>
-      <li class="xl:text-sm mx-4 text-slate-300 hover:text-primary duration-200">
+      <li class="xl:text-sm font-bold mx-4 text-slate-300 hover:text-primary duration-200">
         <nuxt-link :to="{ path: '/', hash: '#experience' }">
           <span class="text-primary">02.</span>Experience
         </nuxt-link>
       </li>
-      <li class="xl:text-sm mx-4 text-slate-300 hover:text-primary duration-200">
+      <li class="xl:text-sm font-bold mx-4 text-slate-300 hover:text-primary duration-200">
         <nuxt-link :to="{ path: '/', hash: '#work' }">
           <span class="text-primary">03.</span>Work
         </nuxt-link>
       </li>
-      <li class="xl:text-sm mx-4 text-slate-300 hover:text-primary duration-200">
+      <li class="xl:text-sm font-bold mx-4 text-slate-300 hover:text-primary duration-200">
         <nuxt-link :to="{ path: '/', hash: '#contact' }">
           <span class="text-primary">04.</span>Contact
         </nuxt-link>
@@ -101,22 +101,30 @@
         </div>
         <div class="flex-none hidden lg:block">
           <ul class="flex flex-row mr-4 menu-horizontal h-full items-center gap-x-8 pt-2">
-            <li class="xl:text-sm mx-4 text-slate-300 hover:text-primary duration-200">
+            <li
+              class="xl:text-sm font-bold mx-4 text-slate-300 hover:text-primary duration-200"
+            >
               <nuxt-link :to="{ path: '/', hash: '#home' }">
                 <span class="text-primary">01.</span>Home
               </nuxt-link>
             </li>
-            <li class="xl:text-sm mx-4 text-slate-300 hover:text-primary duration-200">
+            <li
+              class="xl:text-sm font-bold mx-4 text-slate-300 hover:text-primary duration-200"
+            >
               <nuxt-link :to="{ path: '/', hash: '#about-me' }">
                 <span class="text-primary">02.</span>About me
               </nuxt-link>
             </li>
-            <li class="xl:text-sm mx-4 text-slate-300 hover:text-primary duration-200">
+            <li
+              class="xl:text-sm font-bold mx-4 text-slate-300 hover:text-primary duration-200"
+            >
               <nuxt-link :to="{ path: '/', hash: '#skills' }">
                 <span class="text-primary">03.</span>Skills
               </nuxt-link>
             </li>
-            <li class="xl:text-sm mx-4 text-slate-300 hover:text-primary duration-200">
+            <li
+              class="xl:text-sm font-bold mx-4 text-slate-300 hover:text-primary duration-200"
+            >
               <nuxt-link :to="{ path: '/', hash: '#contact' }">
                 <span class="text-primary">05.</span>Contact
               </nuxt-link>
@@ -124,7 +132,7 @@
             <li>
               <nuxt-link to="/resume">
                 <button
-                  class="rounded py-2 px-3 text-sm bg-slate-900 text-primary hover:bg-green-400/10 border border-green-400 duration-500 hover:translate-x-3"
+                  class="rounded py-2 px-3 text-sm bg-slate-900 text-primary hover:bg-green-400/10 border border-green-400 duration-500 hover:translate-x-3 font-bold"
                 >
                   My Resume
                 </button>
@@ -138,22 +146,30 @@
       <label for="my-drawer-3" class="drawer-overlay"></label>
       <ul class="menu p-4 w-80 min-h-full bg-slate-900">
         <!-- Sidebar content here -->
-        <li class="xl:text-sm mx-4 text-slate-300 hover:text-primary duration-200">
+        <li
+          class="xl:text-sm font-bold mx-4 text-slate-300 hover:text-primary duration-200"
+        >
           <nuxt-link :to="{ path: '/', hash: '#home' }">
             <span class="text-primary">01.</span>Home
           </nuxt-link>
         </li>
-        <li class="xl:text-sm mx-4 text-slate-300 hover:text-primary duration-200">
+        <li
+          class="xl:text-sm font-bold mx-4 text-slate-300 hover:text-primary duration-200"
+        >
           <nuxt-link :to="{ path: '/', hash: '#about-me' }">
             <span class="text-primary">02.</span>About me
           </nuxt-link>
         </li>
-        <li class="xl:text-sm mx-4 text-slate-300 hover:text-primary duration-200">
+        <li
+          class="xl:text-sm font-bold mx-4 text-slate-300 hover:text-primary duration-200"
+        >
           <nuxt-link :to="{ path: '/', hash: '#skills' }">
             <span class="text-primary">03.</span>Skills
           </nuxt-link>
         </li>
-        <li class="xl:text-sm mx-4 text-slate-300 hover:text-primary duration-200">
+        <li
+          class="xl:text-sm font-bold mx-4 text-slate-300 hover:text-primary duration-200"
+        >
           <nuxt-link :to="{ path: '/', hash: '#contact' }">
             <span class="text-primary">05.</span>Contact
           </nuxt-link>
@@ -161,7 +177,7 @@
         <li>
           <nuxt-link to="/resume">
             <button
-              class="rounded py-2 px-3 text-sm bg-slate-900 text-primary hover:bg-green-400/10 border border-green-400 duration-500 hover:translate-x-3"
+              class="rounded py-2 px-3 text-sm bg-slate-900 text-primary hover:bg-green-400/10 border border-green-400 duration-500 hover:translate-x-3 font-bold"
             >
               My Resume
             </button>

@@ -22,7 +22,7 @@
     </h1>
     <nuxt-link to="/resume" class="h-fit">
       <button
-        class="rounded py-2 px-3 text-sm bg-slate-900 text-primary hover:bg-green-400/10 border border-green-400 duration-500 hover:translate-x-3 h-fit"
+        class="rounded py-2 px-3 text-sm bg-slate-900 text-primary hover:bg-green-400/10 border border-green-400 duration-500 hover:translate-x-3 h-fit font-bold"
       >
         My Resume
       </button>
