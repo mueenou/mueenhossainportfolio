@@ -3,6 +3,9 @@
 @tailwind components;
 @tailwind utilities;
 
+html {
+    background-color: rgb(15 23 42/var(--tw-bg-opacity)) !important;
+}
 
 body {
     @apply bg-slate-900 !scroll-smooth;
