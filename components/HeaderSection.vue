@@ -126,7 +126,7 @@
               class="xl:text-sm font-bold mx-4 text-slate-300 hover:text-primary duration-200"
             >
               <nuxt-link :to="{ path: '/', hash: '#contact' }">
-                <span class="text-primary">05.</span>Contact
+                <span class="text-primary">04.</span>Contact
               </nuxt-link>
             </li>
             <li>
