@@ -17,7 +17,7 @@
           <button
             class="border border-primary rounded-full p-2 hover:bg-primary/10 hover:cursor-pointer"
           >
-            <a href="#" target="_blank" download="../../assets/files/cv_mueen_tw.pdf">
+            <a href="/files/Mueen_Hossain_FS.pdf" target="_blank">
               <Icon
                 class="text-4xl text-primary duration-100"
                 name="material-symbols:download-rounded"

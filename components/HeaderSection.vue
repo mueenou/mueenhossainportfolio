@@ -1,59 +1,4 @@
 <template>
-  <!-- <nav
-    class="bg-slate-900 h-20 text-slate-300 flex flex-row justify-between items-center px-10 fixed top-0 w-screen z-50"
-  >
-    <nuxt-link to="/">
-      <h1
-        class="text-3xl font-extrabold"
-        v-motion="{
-          initial: {
-            x: -5,
-            opacity: 0,
-          },
-          enter: {
-            x: 0,
-            opacity: 1,
-            transition: {
-              duration: 1500,
-              ease: 'linear',
-            },
-          },
-        }"
-      >
-        Mueen Hossain.
-      </h1>
-    </nuxt-link>
-    <div class="flex-1"></div>
-    <ul class="flex flex-row mr-4">
-      <li class="xl:text-sm font-bold mx-4 text-slate-300 hover:text-primary duration-200">
-        <nuxt-link :to="{ path: '/', hash: '#skills' }">
-          <span class="text-primary">01.</span>Skills
-        </nuxt-link>
-      </li>
-      <li class="xl:text-sm font-bold mx-4 text-slate-300 hover:text-primary duration-200">
-        <nuxt-link :to="{ path: '/', hash: '#experience' }">
-          <span class="text-primary">02.</span>Experience
-        </nuxt-link>
-      </li>
-      <li class="xl:text-sm font-bold mx-4 text-slate-300 hover:text-primary duration-200">
-        <nuxt-link :to="{ path: '/', hash: '#work' }">
-          <span class="text-primary">03.</span>Work
-        </nuxt-link>
-      </li>
-      <li class="xl:text-sm font-bold mx-4 text-slate-300 hover:text-primary duration-200">
-        <nuxt-link :to="{ path: '/', hash: '#contact' }">
-          <span class="text-primary">04.</span>Contact
-        </nuxt-link>
-      </li>
-    </ul>
-    <nuxt-link to="/resume">
-      <button
-        class="rounded py-2 px-3 text-sm bg-slate-900 text-primary hover:bg-green-400/10 border border-green-400 duration-200 hover:translate-x-3"
-      >
-        Resume
-      </button>
-    </nuxt-link>
-  </nav> -->
   <div class="drawer fixed top-0 z-[100]">
     <input id="my-drawer-3" type="checkbox" class="drawer-toggle" />
     <div class="drawer-content flex flex-col">
@@ -125,8 +70,15 @@
             <li
               class="xl:text-sm font-bold mx-4 text-slate-300 hover:text-primary duration-200"
             >
+              <nuxt-link to="/showcase">
+                <span class="text-primary">04.</span>Show Case
+              </nuxt-link>
+            </li>
+            <li
+              class="xl:text-sm font-bold mx-4 text-slate-300 hover:text-primary duration-200"
+            >
               <nuxt-link :to="{ path: '/', hash: '#contact' }">
-                <span class="text-primary">04.</span>Contact
+                <span class="text-primary">05.</span>Contact
               </nuxt-link>
             </li>
             <li>
@@ -165,6 +117,13 @@
         >
           <nuxt-link :to="{ path: '/', hash: '#skills' }">
             <span class="text-primary">03.</span>Skills
+          </nuxt-link>
+        </li>
+        <li
+          class="xl:text-sm font-bold mx-4 text-slate-300 hover:text-primary duration-200"
+        >
+          <nuxt-link to="/showcase">
+            <span class="text-primary">04.</span>Show case
           </nuxt-link>
         </li>
         <li
