@@ -1,7 +1,16 @@
 <template>
   <div class="text-slate-950 z-0 container mx-auto">
     <div v-if="project" class="p-4 md:p-18 lg:p-36 text-slate-300">
-      <h3 class="font-bold text-lg underline mb-6">{{ project.name }}</h3>
+      <h3 class="font-bold text-lg underline">{{ project.name }}</h3>
+
+      <nuxt-link
+        :to="project.url"
+        target="_blank"
+        class="flex flex-row items-center gap-x-2 mt-2 mb-6 w-fit hover:text-primary duration-300 text-xs"
+      >
+        <Icon name="mdi:link" />
+        <p>{{ project.url }}</p>
+      </nuxt-link>
       <div class="grid grid-cols-1 lg:grid-cols-2 text-sm">
         <img
           :src="`/images/${project.image}`"
