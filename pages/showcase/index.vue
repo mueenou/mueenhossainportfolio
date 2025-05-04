@@ -1,7 +1,7 @@
 <template>
   <div class="text-slate-950 z-0 container mx-auto">
     <div class="p-4 md:p-36 lg:py-64">
-      <h2 class="text-slate-300 font-bold text-2xl mb-16">My works</h2>
+      <h2 class="text-slate-300 font-bold text-2xl mb-16">My projects</h2>
       <div
         v-if="projects"
         class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 justify-center items-center text-center gap-x-10 gap-y-16 w-max mx-auto"

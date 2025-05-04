@@ -246,7 +246,9 @@
         </div>
         <div class="mt-10">
           <h3 class="text-sm text-center text-slate-600 font-bold">TOOLS & OTHERS</h3>
-          <div class="p-10 grid md:grid-cols-7 grid-cols-3 gap-x-10 gap-y-2">
+          <div
+            class="py-10 grid md:grid-cols-8 grid-cols-3 gap-x-10 gap-y-2 place-items-center"
+          >
             <Icon
               class="text-3xl"
               name="devicon:supabase"
@@ -303,6 +305,25 @@
               }"
               class="text-3xl"
               name="devicon:java"
+            />
+            <Icon
+              v-motion="{
+                initial: {
+                  y: 10,
+                  opacity: 0,
+                },
+                enter: {
+                  y: 0,
+                  opacity: 1,
+                  transition: {
+                    delay: 1150,
+                    duration: 1000,
+                    ease: 'linear',
+                  },
+                },
+              }"
+              class="text-3xl"
+              name="devicon:docker"
             />
             <Icon
               v-motion="{
@@ -456,6 +477,48 @@
           class="flex flex-col relative rounded-md border border-primary p-2 justify-start gap-y-1"
           v-motion="{
             initial: {
+              x: 10,
+              opacity: 0,
+            },
+            visible: {
+              x: 0,
+              opacity: 1,
+              transition: {
+                delay: 0,
+                duration: 1000,
+                ease: 'linear',
+              },
+            },
+          }"
+        >
+          <div
+            class="ring-2 ring-primary w-fit px-1 rounded-full bg-primary absolute -top-2 text-slate-100 text-xs"
+          >
+            <span>2025-Current</span>
+          </div>
+          <div><span>Cegid</span></div>
+          <div><p class="text-xs text-slate-400">Paris, France</p></div>
+          <div class="mb-4">
+            <p class="text-xs text-justify">
+              As a Frontend Expert my job was to rebuild the user interface after getting
+              new Designs from the UX/UI designers in the team. This decision was mainly
+              made because of the project being pretty old (early 2000s) and the company
+              CEGID buying out Exalog which is a finance and payment related company. Main
+              tasks: Understanding the old code and offering new tech for better coding
+              experiences and compatibilty. Installing new tech tools to the project
+              transforming the figma design into html/css and javascript.
+            </p>
+          </div>
+          <div
+            class="absolute bottom-1 right-1 text-xs bg-slate-200 text-slate-400 rounded-full px-2"
+          >
+            <p>#javascript #css #sass #docker #jquery</p>
+          </div>
+        </div>
+        <div
+          class="flex flex-col relative rounded-md border border-primary p-2 justify-start gap-y-1"
+          v-motion="{
+            initial: {
               x: -10,
               opacity: 0,
             },
@@ -478,7 +541,7 @@
           <div><span>Stratocore</span></div>
           <div><p class="text-xs text-slate-400">Atlanta, Georgia - USA</p></div>
           <div class="mb-4">
-            <p class="text-xs">
+            <p class="text-xs text-justify">
               As a Vue.js and TSQL developer for a SaaS tool catering to laboratories,
               schools, and research-based institutions, I played a pivotal role in coding
               a platform that facilitated tracking and pricing of rented scientiqc tools.
@@ -520,7 +583,7 @@
             <p class="text-xs text-slate-400">Paris, France</p>
           </div>
           <div class="mb-4">
-            <p class="text-xs">
+            <p class="text-xs text-justify">
               As a full-stack developer specializing in Nuxt.js and Node.js, I contributed
               to a company's platform aimed at locating lost items in specific cities and
               locations. My role involved designing and implementing back-end features and
@@ -562,7 +625,7 @@
             <p class="text-xs text-slate-400">Paris, France</p>
           </div>
           <div class="mb-4">
-            <p class="text-xs">
+            <p class="text-xs text-justify">
               As a JavaScript developer at an advertising agency, I specialized in coding
               various advertising banners for websites. I collaborated with the design
               team to understand their vision and objectives and then translated them into
@@ -603,7 +666,7 @@
             <p class="text-xs text-slate-400">Orry-La-Ville, France</p>
           </div>
           <div class="mb-4">
-            <p class="text-xs">
+            <p class="text-xs text-justify">
               Coding a controlling application using VueJS for a machine, and coding
               little parts of their main website: http://www.dessinetonmeuble.fr.
             </p>

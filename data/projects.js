@@ -1,7 +1,7 @@
 const projects = [
   {
     id: 1,
-    name: "My Todos",
+    name: "My To-dos",
     image: "mytodos.jpg", // URL to the project image
     description:
       "My Todos is a full-stack task management application designed to help users create, manage, and organize their daily tasks. Built with a focus on simplicity and efficiency, the app provides a responsive and user-friendly interface, making it easy to add, update, and delete tasks. My Todos leverages MongoDB to store tasks securely in the cloud, ensuring that users can access their data from any device. The app includes features like task prioritization, due dates, and filtering to streamline task management and improve productivity. Its modern design is fully responsive, offering a seamless experience across devices.",

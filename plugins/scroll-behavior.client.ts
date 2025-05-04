@@ -1,26 +1,33 @@
 import { useRouter } from "vue-router";
 
-export default defineNuxtPlugin(async function () {
+export default defineNuxtPlugin((nuxtApp) => {
   if (typeof window !== "undefined") {
     const router = useRouter();
 
-    router.beforeEach((to) => {
+    router.afterEach((to, from) => {
       if (to.hash) {
-        const targetElement = document.querySelector(to.hash);
-        if (targetElement) {
-          targetElement.scrollIntoView({
-            behavior: "smooth",
-          });
-          const p: Promise<boolean> = new Promise((resolve) => {
-            setTimeout(() => {
-              resolve(true);
-            }, 1000);
-          });
-          return p;
-        }
-      }
+        const scrollToHash = () => {
+          const targetElement = document.querySelector(to.hash);
+          if (targetElement) {
+            targetElement.scrollIntoView({ behavior: "smooth" });
+          }
+        };
 
-      window.scrollTo({ top: 0, behavior: "smooth" });
+        // Coming from /showcase? Delay 1s before trying to scroll
+        if (from.path === "/showcase") {
+          setTimeout(() => {
+            scrollToHash();
+          }, 100);
+        } else {
+          // Otherwise scroll after a short delay to ensure element is in DOM
+          setTimeout(() => {
+            scrollToHash();
+          }, 100);
+        }
+      } else {
+        // No hash — just scroll to top smoothly
+        window.scrollTo({ top: 0, behavior: "smooth" });
+      }
     });
   }
 });
